@@ -17,7 +17,7 @@ export default function Page() {
       "Really?",
       "Really sure?",
       "Give it a second thought..
-      "Seriously, think about it!",
+      "Think about it!",
       "Seriously..",
       "Is this really what you want?",
       "Anthony, really??",

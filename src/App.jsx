@@ -14,24 +14,24 @@ export default function Page() {
   const getNoButtonText = () => {
     const phrases = [
       "No",
-      "Are you sure?",
+      "Really?",
       "Really sure?",
-      "Think again!",
-      "Last chance!",
-      "Surely not?",
-      "You might regret this!",
-      "Give it another thought!",
-      "Are you absolutely certain?",
-      "This could be a mistake!",
-      "Have a heart!",
-      "Don't be so cold!",
-      "Change of heart?",
-      "Wouldn't you reconsider?",
-      "Is that your final answer?",
-      "You're breaking my heart ;(",
-      "Is that your final answer?",
-      "You're breaking my heart ;(",
-      "Plsss? :( You're breaking my heart",
+      "Give it a second thought..
+      "Come on seriously, think about it!",
+      "Wait, seriously..",
+      "Is this really what you want?",
+      "Anthony, really??",
+      "Just think about it more",
+      "This is a mistake..",
+      "Okay really, think about it more!!",
+      "Don't be so mean",
+      "Think again?",
+      "Wouldn't hurt to think once more?",
+      "Is that really your final answer?",
+      "God, you make my heart ache ;(",
+      "Is that really your final answer?",
+      "God, you make my heart ache;(",
+      "Please??",
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
@@ -43,7 +43,7 @@ export default function Page() {
         <>
           <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
           <div className="text-4xl md:text-6xl font-bold my-4">
-            Ok Yayyyyy!!!
+            AHH YAY!! I LOVE YOU ANTHONY <3
           </div>
         </>
       ) : (
@@ -61,7 +61,7 @@ export default function Page() {
             src="https://gifdb.com/images/high/cute-Love-bear-roses-ou7zho5oosxnpo6k.gif"
           />
           <h1 className="text-4xl md:text-6xl my-4 text-center">
-            Will you be my Valentine?
+            Sunflower baby, Will you be my Valentine?
           </h1>
           <div className="flex flex-wrap justify-center gap-2 items-center">
             <button
